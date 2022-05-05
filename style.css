@@ -1,0 +1,218 @@
+
+body{
+    font-family: "Karla", sans-serif;
+    font-weight: 400, 700;
+    display: flex;
+    min-height: 97vh;
+    background-color: rgb(243, 240, 240);
+}
+
+p{
+    color:  hsl(218, 22%, 67%);
+}
+/* ---------MAIN CONTAINER---------- */
+.container{
+    width: 40%;
+    margin: auto;
+}
+
+.main-container{
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* --------INTRO SECTION--------- */
+.intro{
+    padding: 10px 60px 10px 30px;
+}
+
+.intro h2{
+    font-size: 20px;
+    color: hsl(180, 96%, 38%);
+    text-shadow: 0 0 1px hsl(180, 96%, 38%);
+}
+
+.intro h3{
+    font-size: 17px;
+    color: hsl(71, 73%, 54%);
+    margin: 20px auto 0px;
+}
+
+.intro p{
+    line-height: 1.7;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/* --------FLEX CONTAINER----------- */
+.flex-container{
+    display: flex;
+}
+
+
+.flex-container .item{
+    width: 50%;
+    padding: 10px 35px 10px ;
+
+}
+
+.flex-container .item h3{
+    color:  hsl(200, 18%, 97%);
+    font-size: 15px;
+}
+
+.flex-container .item p{
+    color:  hsl(201, 18%, 85%);
+    font-size: 13px;
+}
+
+.flex-container .box-1{
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 8px;
+}
+
+.flex-container .box-1 .flex{
+    display: flex;
+}
+.flex-container .box-1 .flex p{
+    margin-top: 8px;
+    color:  hsl(200, 18%, 80%);
+}
+
+.flex-container .box-1 span{
+    font-size: 25px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.flex-container .box-1 p{
+    color:  hsl(210, 11%, 93%);
+}
+
+.flex-container .box-2{
+    background-color: hsl(179, 52%, 55%);
+    border-radius: 0 0  8px;
+}
+
+.flex-container .box-2 p{
+    width: 80%;
+    line-height: 1.5;
+    color:  hsl(210, 53%, 93%);
+}
+
+.flex-container .item h3{
+    color:  hsl(200, 18%, 97%);
+    font-size: 15px;
+}
+
+.flex-container .box-1 button{
+    margin-top: 20px;
+    width: 80%;
+    padding: 11px;
+    border-radius: 4px;
+    border: 0;
+    background-color: hsl(71, 73%, 54%);;
+    color: #fff;
+}
+
+.flex-container .box-1 button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p{
+    color: #000;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+
+
+@media(max-width:440px){
+    
+
+    /* ---------MAIN CONTAINER---------- */
+    .container{
+        width: 88%;
+    }
+
+    .main-container{
+        width: 100%;
+    }
+
+
+    /* --------INTRO SECTION--------- */
+
+    .intro{
+        padding: 10px 10px 10px 15px;
+    }
+
+    .intro h2{
+        font-size: 17px;
+    }
+
+    .intro h3{
+        line-height: 1.5;
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+    .intro p{
+        line-height: 1.7;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    /* --------FLEX CONTAINER----------- */
+    .flex-container{
+        display:block;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .flex-container .item{
+        width: auto;
+        padding: 15px ;
+    }
+
+    .flex-container .item h3{
+        font-size: 16px;
+    }
+
+    .flex-container .item p{
+        font-size: 13px;
+    }
+    
+    .flex-container .box-1 span{
+        font-size: 25px;
+    }
+
+    .flex-container .box-1{
+        border-radius: 0 ;
+    }
+
+    .flex-container .box-2{
+        background-color: hsl(179, 52%, 55%);
+        border-radius: 0 0 8px 8px;
+    }
+
+    .flex-container .box-1 button{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        width: 90%;
+        padding: 16px;
+        border-radius: 4px;
+        border: 0;
+        background-color: hsl(71, 73%, 54%);;
+        color: #fff;
+    }
+
+
+
+}
+
